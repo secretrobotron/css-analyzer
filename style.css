@@ -1,0 +1,57 @@
+html, body {
+}
+
+#css-analyzer-hover-element{
+  position: absolute;
+  background: rgba( 200, 200, 0, 0.6 );
+  z-index: 2000000;
+  pointer-events: none;
+}
+
+#foo img {
+  border: 1px solid #429;
+  border-width: 20px;
+}
+
+#css-analyzer-tray {
+  position: fixed;
+  background: #333;
+  height: 300px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  z-index: 2000001;
+}
+
+#css-analyzer-tray .category {
+  margin-left: .5em;
+}
+
+#css-analyzer-tray .attribute {
+  margin-left: .5em;
+}
+
+#css-analyzer-tray .item {
+  margin-left: .5em;
+  font: 12pt sans-serif;
+  color: #fff;
+}
+
+#css-analyzer-tray .item .name {
+  color: #cc0;
+  margin-right: .3em;
+}
+
+
+#css-analyzer-tray .number-item .helper {
+  width: 30px;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+#css-analyzer-tray .number-item .helper[ data-state="focused" ]{
+  background: #fff;
+  color: #000;
+}
+
